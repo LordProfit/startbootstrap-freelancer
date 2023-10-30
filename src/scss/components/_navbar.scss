@@ -1,6 +1,6 @@
-// 
+//
 // Navbar
-// 
+//
 
 #mainNav {
     padding-top: 1rem;
@@ -9,7 +9,10 @@
     font-weight: $headings-font-weight;
 
     .navbar-brand {
-        color: $white;
+        color: $pink;
+    }
+    &:hover {
+        color: $primary;
     }
 
     .navbar-nav {
@@ -17,7 +20,7 @@
 
         li.nav-item {
             a.nav-link {
-                color: $white;
+                color: $pink;
 
                 &:hover {
                     color: $primary;
